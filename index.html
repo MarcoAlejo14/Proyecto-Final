@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>impresoras canon</title>
-    <link rel="stylesheet" href="./estilos/estilos2.css">
+    <link rel="stylesheet" href="./estilos/estiloscanon.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     </nav>
 
     <div class="contenedores">
-        <div class="apartado izquierdo">
+        <div class="apartado_izquierdo">
             <form action="">
                 <h4>BÚSQUEDA AVANZADA</h4>
 
@@ -71,20 +71,22 @@
             </form>
 
             <h4>Servicio al Cliente</h4>
-            <a href="#">¿Quienes somos?</a>
-            <a href="#">Contactanos</a>
-            <a href="#">Términos y condiciones</a>
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">De la Garantia</a>
-            <a href="#">Cambios y devoluciones</a>
-            <a href="#">Medios y formas de pago</a>
-            <a href="#">Despachos y formas de envío</a>
-            <a href="#">Libro de reclamaciones</a>
+            <ul>
+                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">De la Garantia</a></li>
+                <li><a href="#">Cambios y devoluciones</a></li>
+                <li><a href="#">Medios y formas de pago</a></li>
+                <li><a href="#">Despachos y formas de envío</a></li>
+                <li><a href="#">Libro de reclamaciones</a></li>
+            </ul>
 
         </div>
         <div class="canonpresentacion">
             <div class="contenedor-img">
-                <img src="./multimedia/CANON 400IF.png" alt="" height="620px">
+                <img src="./multimedia/CANON 400IF.png" alt="canon400if" height="620px">
             </div>
             <div class="contenedor-informacion-producto">
                 <div class="contenedor-precio">
@@ -95,7 +97,7 @@
                     <div class="forma-grupo">
                         <label for="color">Color</label>
                         <select name="color" id="color">
-                            <option disabled selectd value="">escoge una opcion</option>
+                            <option  selectd value="">escoge una opcion</option>
                             <option value="gris">gris</option>
                             <option value="blanco">blanco</option>
                             <option value="negro">negro</option>
@@ -104,7 +106,7 @@
                     <div class="forma-grupo">
                         <label for="tipo-conexion">tipo de conexion</label>
                         <select name="tipo-conexion" id="tipo-conexion">
-                            <option disabled selectd value="">escoge una opcion</option>
+                            <option selectd value="">escoge una opcion</option>
                             <option value="Wifi">Wifi</option>
                             <option value="Bluetooth">Bluetooth</option>
                             <option value="NFC">NFC</option>
@@ -177,18 +179,86 @@
                             <li>Resolución máx. de impresión: 1200 x 1200 ppp</li>
                             <li>Capacidad de papel (Estándar): 650 hojas</li>
                             <li>Capacidad de papel (Máxima, con opciones): 2300 hojas</li>
+                            <li>Tamaños de papel: A3, A4, A5, A6, Oficio, Carta, Sobres</li>
                         </ul>
+                        <div class="contenedor-add-cart">
+                            <div class="contenedor-numero">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-numero">
+        
+                            </div>
+                            <button class="btn-add-to-cart">
+                                <i class="fa-solid fa-plus"></i>Añadir al carrito
+                            </button>
+                        </div>
                     </div>
                     <div class="precio">$690.00</div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-img">
-                    <img src="./multimedia/canon-c256.png" alt="CANON-C256">
+                    <img src="./multimedia/CANON C3525.png" alt="CANON_C3525">
                 </div>
                 <div class="informacion-card">
                     <div class="texto-producto">
-                        <h3>CANON C256</h3>
+                        <h3>CANON C3525</h3>
+                        <ul class="descripcion-card">
+                            <li>Impresora – Copiadora – Escáner</li>
+                            <li>Monocromático y a todo color</li>
+                            <li>Imprime hasta 25 ppm (páginas por minuto)</li>
+                            <li>Resolución máx. de impresión: 600 x 600 ppp</li>
+                            <li>Capacidad de papel (Estándar): 1200 hojas</li>
+                            <li>Capacidad de papel (Máxima, con opciones): 2300 hojas</li>
+                            <li>Tamaños de papel: A3, A4, A5, A6, Oficio, Carta, Sobres</li>
+                        </ul>
+                        <div class="contenedor-add-cart">
+                            <div class="contenedor-numero">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-numero">
+        
+                            </div>
+                            <button class="btn-add-to-cart">
+                                <i class="fa-solid fa-plus"></i>Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    <div class="precio">$690.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./multimedia/CANON C5250.jpg" alt="CANON_C5250">
+                </div>
+                <div class="informacion-card">
+                    <div class="texto-producto">
+                        <h3>CANON C5250</h3>
+                        <ul class="descripcion-card">
+                            <li>Impresora-Copiadora-Escáner</li>
+                            <li>Monocromático y a todo color</li>
+                            <li>Imprime hasta 50 ppm (B/N) / 45 ppm (Color)</li>
+                            <li>Resolución máx. de impresión: 1200 x 1200 ppp</li>
+                            <li>Capacidad de papel (Estándar): 1200 hojas</li>
+                            <li>Capacidad de papel (Máxima, con opciones): 5000 hojas</li>
+                            <li>Tamaños de papel: A3, A4, A5, A6, B4, B5, Oficio, Carta, Sobres</li>
+                        </ul>
+                        <div class="contenedor-add-cart">
+                            <div class="contenedor-numero">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-numero">
+        
+                            </div>
+                            <button class="btn-add-to-cart">
+                                <i class="fa-solid fa-plus"></i>Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                    <div class="precio">$690.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./multimedia/CANON C5550.jpg" alt="CANON_C5550">
+                </div>
+                <div class="informacion-card">
+                    <div class="texto-producto">
+                        <h3>CANON C5550</h3>
                         <ul class="descripcion-card">
                             <li>Impresora-Copiadora-Escáner</li>
                             <li>Monocromático y a todo color</li>
@@ -197,44 +267,15 @@
                             <li>Capacidad de papel (Estándar): 650 hojas</li>
                             <li>Capacidad de papel (Máxima, con opciones): 2300 hojas</li>
                         </ul>
-                    </div>
-                    <div class="precio">$690.00</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <img src="./multimedia/canon-c256.png" alt="CANON-C256">
-                </div>
-                <div class="informacion-card">
-                    <div class="texto-producto">
-                        <h3>CANON C256</h3>
-                        <ul class="descripcion-card">
-                            <li>Impresora-Copiadora-Escáner</li>
-                            <li>Monocromático y a todo color</li>
-                            <li>Imprime hasta 25 ppm (páginas por minuto)</li>
-                            <li>Resolución máx. de impresión: 1200 x 1200 ppp</li>
-                            <li>Capacidad de papel (Estándar): 650 hojas</li>
-                            <li>Capacidad de papel (Máxima, con opciones): 2300 hojas</li>
-                        </ul>
-                    </div>
-                    <div class="precio">$690.00</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <img src="./multimedia/canon-c256.png" alt="CANON-C256">
-                </div>
-                <div class="informacion-card">
-                    <div class="texto-producto">
-                        <h3>CANON C256</h3>
-                        <ul class="descripcion-card">
-                            <li>Impresora-Copiadora-Escáner</li>
-                            <li>Monocromático y a todo color</li>
-                            <li>Imprime hasta 25 ppm (páginas por minuto)</li>
-                            <li>Resolución máx. de impresión: 1200 x 1200 ppp</li>
-                            <li>Capacidad de papel (Estándar): 650 hojas</li>
-                            <li>Capacidad de papel (Máxima, con opciones): 2300 hojas</li>
-                        </ul>
+                        <div class="contenedor-add-cart">
+                            <div class="contenedor-numero">
+                                <input type="number" placeholder="1" value="1" min="1" class="input-numero">
+        
+                            </div>
+                            <button class="btn-add-to-cart">
+                                <i class="fa-solid fa-plus"></i>Añadir al carrito
+                            </button>
+                        </div>
                     </div>
                     <div class="precio">$690.00</div>
                 </div>
