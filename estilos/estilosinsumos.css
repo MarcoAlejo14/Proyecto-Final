@@ -1,5 +1,6 @@
+
 header {
-    background-color: #333;
+    background-color: #35978f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -12,7 +13,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    background-color: rgb(75, 66, 212);
+    background-color: #35978f;
     margin: 0px;
     padding: 0;
     margin-bottom: 10px;
@@ -44,7 +45,7 @@ nav a:hover {
 .menu li:hover ul {
     display: block;
     position: absolute;
-    background-color: rgb(75, 66, 212);
+    background-color: #35978f;
     padding: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -113,13 +114,16 @@ figcaption,
 .contenedor-contactos{
     gap: 40px;
     display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #666;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #35978f;
+    padding-top: 40px;
 }
 
-.card-sede-centro-lima,
-.card-sede-lurigancho,
-.card-sede-molina{
+.card-sede-molina,
+.derechos_sise,
+.contenedor-mapa
+{
     border-right: 1px solid #000000;
-    padding-left: 50px;
+    text-align: center;
+
 }

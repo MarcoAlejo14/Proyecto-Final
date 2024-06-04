@@ -1,5 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
 header {
-    background-color: #333;
+    background-color: #35978f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -12,7 +18,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    background-color: rgb(75, 66, 212);
+    background-color: #35978f;
     margin: 0px;
     padding: 0;
     margin-bottom: 10px;
@@ -44,7 +50,7 @@ nav a:hover {
 .menu li:hover ul {
     display: block;
     position: absolute;
-    background-color: rgb(75, 66, 212);
+    background-color:#35978f;
     padding: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -53,6 +59,15 @@ nav a:hover {
 .menu li ul li {
     display: block;
 }
+
+.container_marcas,
+.container_servicios,
+.container_horario
+{
+    margin-left: 30px;
+    list-style-type: none;
+}
+
 .contenedores{
 display: flex;
 gap: 30px;
@@ -66,6 +81,7 @@ margin-bottom: 80px;
     display: flex;
 gap: 30px;
 margin-bottom: 80px;
+box-shadow: 0 0  30px rgb(27, 228, 208);
 }
 .contenedor-img{
     background-color: #f7f7f9;
@@ -177,22 +193,32 @@ border-bottom: 1px solid #e4e4e4;
 .contenedor-productos-relacionados{
     text-align: center;
     margin-bottom: 30px;
+    
+}
+.contenedor-productos-relacionados h2{
+    font-size: 60px;
+    margin-bottom: 50px;
 }
 
 .card-lista-productos{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 25px;
+    
 }
 
 .card.img{
     background: transparent;
     margin-bottom: 15px;
+    
 }
 .card-img img{
     height: 150px;
     width: 50%;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0  30px rgb(0, 0, 0, 0.5);
+}
+.card{
+    box-shadow: 0 0  30px rgb(27, 228, 208);
 }
 
 .informacion-card{
@@ -202,6 +228,7 @@ border-bottom: 1px solid #e4e4e4;
 
 .descripcion-card{
     text-align: left;
+    list-style-type: none
 }
 
 .logo-canon img{
@@ -211,14 +238,17 @@ border-bottom: 1px solid #e4e4e4;
 .contenedor-contactos{
     gap: 40px;
     display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #666;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #35978f;
+    padding-top: 40px;
 }
 
-.card-sede-centro-lima,
-.card-sede-lurigancho,
-.card-sede-molina{
+.card-sede-molina,
+.derechos_sise,
+.contenedor-mapa
+{
     border-right: 1px solid #000000;
-    padding-left: 50px;
+    text-align: center;
+
 }
 
