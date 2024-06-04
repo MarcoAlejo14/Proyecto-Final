@@ -79,6 +79,11 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 }
 
+.contenedor_respuestos{
+    box-shadow: 0 0  30px rgb(27, 228, 208);
+
+}
+
 .input-numero{
     background-color: #f7f7f9;
     border: none;
