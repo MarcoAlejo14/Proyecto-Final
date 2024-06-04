@@ -1,0 +1,125 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(75, 66, 212);
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 7px 18px;
+}
+
+nav a:hover {
+    background-color: #c6d4e1;
+    color: black;
+}
+
+.menu ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: rgb(75, 66, 212);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.menu li ul li {
+    display: block;
+}
+
+.contenedores {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.apartado-izquierdo {
+    margin-right: 140px;
+}
+
+.canonpresentacion{
+    display: flex;
+gap: 30px;
+margin-bottom: 80px;
+}
+
+.contenedor_de_productos1{
+display: flex;
+gap: 100px;
+margin-bottom: 80px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+.input-numero{
+    background-color: #f7f7f9;
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 100%;
+    font-weight: 500;
+}
+
+.btn-add-to-cart{
+    border: none;
+    background-color: #252525;
+    padding: 10px;
+    color: #f7f7f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contenedor-img{
+    background-color: #f7f7f9;
+    text-align: center;
+}
+
+figcaption,
+.contenedor-numero{
+    text-align: left;
+}
+
+.contenedor-contactos{
+    gap: 40px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #666;
+}
+
+.card-sede-centro-lima,
+.card-sede-lurigancho,
+.card-sede-molina{
+    border-right: 1px solid #000000;
+    padding-left: 50px;
+}
