@@ -373,3 +373,34 @@ footer p {
 .btn-add-to-cart:hover {
     color: #27aba0;
 }
+.contenedor-productos-relacionados .infor ul li{
+    list-style: none;
+    width: 90%;
+    margin: 5px 0 0 20px;
+}
+
+.infor{
+text-align: left;
+}
+
+.imagess img{
+    width: 200px;
+    height: 200px;
+}
+
+.imagess {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.provar{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    margin-bottom: 20px;
+}
+
+.muestra img{
+    margin-bottom: 40px;
+}
