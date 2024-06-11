@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*border: 1px solid red;*/
 }
 
 body {
@@ -42,7 +41,6 @@ header img {
 
 header img:hover {
     opacity: 0.7;
-
 }
 
 img.banner,
@@ -56,8 +54,6 @@ img.canonlogo {
     height: 200px;
 }
 
-/*_____________________________________________________________________________________*/
-
 nav {
     width: 100%;
     display: flex;
@@ -67,30 +63,23 @@ nav {
 
 nav ul {
     list-style: none;
-    /*Elimina los puntos de la lista*/
     display: flex;
-    /*Hace que los ítems se muestren en linea*/
     justify-content: space-around;
-    /*Distribuye los ítems de manera uniforme*/
     padding: 5px;
 }
 
 nav li {
     margin: 0%;
-    /*Elimina margen predeterminado de los ítems*/
 }
 
 nav a {
     text-decoration: none;
-    /*Elimina la decoración de los enlaces*/
     display: inline-block;
-    /*Mantiene a los elementos a dentro del bloque nav*/
     color: rgb(0, 0, 0);
     padding: 10px;
     font-size: 15px;
     font-weight: 800;
     width: 100%;
-    /*El bloa de la etiqueta <a> ocupe el 100% del ancho, esto logra que el efecto hover de cambiar el backgound sea completo*/
 }
 
 nav a:hover {
@@ -100,19 +89,16 @@ nav a:hover {
 
 .has-submenu:hover .submenu {
     display: block;
-    /* Muestra el submenú al hacer hover sobre el ítem principal*/
 }
 
 .submenu {
     display: none;
     position: absolute;
-    /*Al hacer hover en el menú principal despliega verticalmente el submenú sin afectar el bloque nav*/
     background-color: #35978f;
 }
 
 .submenu a {
     font-size: 13.5px;
-    /*Para igualar ancho de submenu*/
 }
 
 .nav20 {
@@ -122,8 +108,6 @@ nav a:hover {
 .nav50 {
     width: 60%;
 }
-
-/*_____________________________________________________________________________________*/
 
 #izquierda {
     width: 15%;
@@ -141,7 +125,6 @@ nav a:hover {
     text-decoration: none;
     background-color: #dae0e0;
     color: rgb(1, 1, 1);
-
 }
 
 #izquierda a:hover {
@@ -158,9 +141,6 @@ nav a:hover {
     color: #35978f;
 }
 
-
-/*_____________________________________________________________________________________*/
-
 section {
     width: 60%;
     display: flex;
@@ -169,7 +149,6 @@ section {
     justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    /* box-shadow: 0 0 30px rgb(27, 228, 208); */
 }
 
 section figure {
@@ -190,17 +169,14 @@ section figure img:hover,
     transform: scale(1.1);
 }
 
-
 section figure figcaption {
     text-align: center;
     color: #44749d;
 }
 
-/*_____________________________________________________________________________________*/
 #derecha {
     width: 25%;
     background-color: #bcdfdb;
-    /* box-shadow: 0 0 30px rgb(27, 228, 208); */
 }
 
 #derecha a {
@@ -233,24 +209,15 @@ section figure figcaption {
     margin: 50px auto;
     width: 85%;
     display: block;
-    /* box-shadow: 0 0 30px rgb(27, 228, 208); */
-
 }
 
 #derecha video {
-
     margin: 50px auto;
     width: 85%;
     display: block;
-    /* box-shadow: 0 0 30px rgb(27, 228, 208); */
-
     width: 200px;
     height: 400px;
 }
-
-
-
-/*_____________________________________________________________________________________*/
 
 footer {
     width: 100%;
@@ -271,7 +238,6 @@ footer {
     color: rgb(0, 0, 0);
     font-weight: 700;
     margin-left: 10px;
-
 }
 
 footer div a {
@@ -292,30 +258,21 @@ footer p {
     font-weight: 700;
 }
 
-
 .contenedor-productos-relacionados {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-
 }
-
-/* .contenedor-productos-relacionados h2{
-    font-size: 60px;
-    margin-bottom: 50px;
-} */
 
 .card-lista-productos {
     display: grid;
     grid-template-columns: repeat(2, 300px);
     gap: 50px;
-
 }
 
 .card.img {
     background: transparent;
     margin-bottom: 15px;
-
 }
 
 .card-img img {
@@ -325,23 +282,15 @@ footer p {
     margin-top: 50px;
 }
 
-/* .card{
-    box-shadow: 0 0  30px rgb(27, 228, 208);
-}  */
-
-
-
 .descripcion-card {
     text-align: center;
-    list-style-type: none
+    list-style-type: none;
 }
 
 .contenedor-add-cart {
-
     display: flex;
     gap: 20px;
     padding-bottom: 30px;
-
 }
 
 .contenedor-numero {
@@ -373,17 +322,18 @@ footer p {
 .btn-add-to-cart:hover {
     color: #27aba0;
 }
-.contenedor-productos-relacionados .infor ul li{
+
+.contenedor-productos-relacionados .infor ul li {
     list-style: none;
     width: 90%;
     margin: 5px 0 0 20px;
 }
 
-.infor{
-text-align: left;
+.infor {
+    text-align: left;
 }
 
-.imagess img{
+.imagess img {
     width: 200px;
     height: 200px;
 }
@@ -392,15 +342,14 @@ text-align: left;
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-
 }
 
-.provar{
+.provar {
     display: grid;
     grid-template-columns: repeat(2, 300px);
     margin-bottom: 20px;
 }
 
-.muestra img{
+.muestra img {
     margin-bottom: 40px;
 }
